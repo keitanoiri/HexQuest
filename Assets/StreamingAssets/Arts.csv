@@ -1,0 +1,10 @@
+﻿ID,NameJP,NameEN,Type,APCost,Range,Condition,Power,StatusOp,ComboTag,AnimKey,Icon
+1,ニュートラルポイント,Reset,Special,0,Self,ALL,0,RESET,,Reset01,icon_reset
+2,リカバー,Recaver,Special,3,Self,ALL,0,RESET;ZEROPOINT;TURNEND,,Reset01,icon_reset
+3,スラッシュ,Slash,Attack,1,Adjacent,ALL,4,DMG:4,AfterGuard:+2DMG,Slash01,icon_slash
+4,ガード,Guard,Guard,1,Self,ALL,5,BLK:5,AfterSlash:+50%Block,Guard01,icon_guard
+5,キック,Kick,Action,1,Adjacent,ALL,0,DMG:2;PUSH,AfterBuff:-1AP,Lunge01,icon_lunge
+6,集中,Focus,Buff,0,Self,ALL,0,NextDamage:50,AfterLunge:+1AP,Focus01,icon_focus
+7,ステップ,step,Action,1,Adjacent,EMPTY;GROUND,0,MOVE,,Move01,icon_step
+8,納刀,sheathe,Special,4,Self,ALL,0,RESET;ZEROPOINT;TURNEND;MODECHENGE,,sheathe01,icon_sheayhe
+9,ダブルスラッシュ,DoubleSlash,Attack,1,Adjacent,ALL,4,DMG:3;DMG:3,,Slash01,icon_doubleslash
